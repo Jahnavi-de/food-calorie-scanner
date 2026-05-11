@@ -1,13 +1,13 @@
-```markdown
- 🍽️ # Food Calorie Scanner Web App
 
- 📌 ## Project Overview
+## 🍽️  Food Calorie Scanner Web App
 
+## 📌  Project Overview
+```
 This is a web-based Food Calorie Scanner application that allows users to upload a food image and get calorie-related health insights. The system detects the food item using a trained CNN model, estimates calories, calculates BMI, and gives fitness-style recommendations based on the user's height and weight.
-
+```
 ---
  🚀##Features
-
+```
 * 📷 Upload Food Image
 * 🤖 Food Detection using CNN Model
 * 🔥 Calorie Estimation
@@ -18,21 +18,24 @@ This is a web-based Food Calorie Scanner application that allows users to upload
 * ❓ Returns `unknown_food` when prediction confidence is low
 * 🌐 Frontend and Backend API Integration
 
+```
+
 ---
 
 ## 🛠️ Tech Stack
-
+```
 * **Frontend:** Next.js, React, TypeScript, CSS
 * **Backend:** Python, FastAPI
 * **Machine Learning:** TensorFlow, Keras, MobileNetV2 CNN
 * **Image Processing:** Pillow, NumPy
 * **API Server:** Uvicorn
 * **Dataset Sources:** Hugging Face, Kaggle
+```
 
 ---
 
 ## 🍱 Food Classes
-
+```
 The CNN model is trained on 11 food classes:
 
 ```text
@@ -94,7 +97,7 @@ food-calorie-scanner/
 ---
 
 ## ⚙️ How It Works
-
+```
 1. User uploads a food image from the frontend
 2. User enters height and weight
 3. Frontend sends image and user data to FastAPI backend
@@ -104,11 +107,11 @@ food-calorie-scanner/
 7. BMI is calculated using height and weight
 8. Fitness-style recommendation is generated
 9. Results are displayed on the dashboard
-
+```
 ---
 
 ## 🧠 Machine Learning Model
-
+```
 The model uses **MobileNetV2 transfer learning** with TensorFlow/Keras.
 
 Training code is in:
