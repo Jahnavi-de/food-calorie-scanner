@@ -1,0 +1,12 @@
+
+> food-calorie-scanner-frontend@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 13.3s (489 modules)
+ GET / 200 in 14170ms
