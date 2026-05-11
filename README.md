@@ -1,7 +1,7 @@
 ```markdown
- 🍽️ #Food Calorie Scanner Web App
+ 🍽️ # Food Calorie Scanner Web App
 
- 📌 ##Project Overview
+ 📌 ## Project Overview
 
 This is a web-based Food Calorie Scanner application that allows users to upload a food image and get calorie-related health insights. The system detects the food item using a trained CNN model, estimates calories, calculates BMI, and gives fitness-style recommendations based on the user's height and weight.
 
